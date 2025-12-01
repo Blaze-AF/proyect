@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Aqualife</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col  group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-center whitespace-nowrap border-b border-solid  px-10 py-3">
+          <div class="flex items-center gap-9">
+            <a><button onclick="window.location.href='index.html'">Inicio</button></a>
+            <a><button onclick="window.location.href='Exhibits.html'">Exhibiciones</button></a>
+            <a><button onclick="window.location.href='Shows.html'">Espectáculos</button></a>
+            <a><button onclick="window.location.href='Conservation.html'">Conservación</button></a>
+            <a><button onclick="window.location.href='Education.html'">Educación</button></a>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4  text-sm font-bold leading-normal tracking-[0.015em]"
+              onclick="window.location.href='Buy.html'"
+            >
+              <span class="truncate">Comprar boletos</span>
+            </button>
+          </div>
+        </header>
+        <!-- Sección de agendador de visitas -->
+        <main class="flex flex-1 items-center justify-center px-4 py-10 bg-sky-50">
+          <div class="w-full max-w-lg rounded-2xl bg-white shadow-lg p-8 space-y-6">
+            <h1 class="text-2xl font-bold text-sky-900 text-center">Agenda tu visita</h1>
+            <p class="text-sm text-slate-600 text-center">
+              Selecciona el día y la hora en la que deseas visitarnos. Recibirás la confirmación al completar el formulario.
+            </p>
+
+            <form class="space-y-5">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label for="visit-date" class="block text-sm font-medium text-slate-700 mb-1">Fecha de la visita</label>
+                  <input
+                    type="date"
+                    id="visit-date"
+                    name="visit-date"
+                    class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="visit-time" class="block text-sm font-medium text-slate-700 mb-1">Hora de la visita</label>
+                  <input
+                    type="time"
+                    id="visit-time"
+                    name="visit-time"
+                    class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label for="name" class="block text-sm font-medium text-slate-700 mb-1">Nombre completo</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Tu nombre"
+                    class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium text-slate-700 mb-1">Correo electrónico</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="tucorreo@ejemplo.com"
+                    class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="notes" class="block text-sm font-medium text-slate-700 mb-1">Comentarios adicionales (opcional)</label>
+                <textarea
+                  id="notes"
+                  name="notes"
+                  rows="3"
+                  placeholder="Por ejemplo: número de personas, necesidades especiales, etc."
+                  class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-sky-500 focus:ring-sky-500"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full inline-flex justify-center items-center rounded-lg bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+              >
+                Agendar visita
+              </button>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

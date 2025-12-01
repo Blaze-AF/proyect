@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Aqualife</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col  group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-center whitespace-nowrap border-b border-solid px-10 py-3">
+          <div class="flex items-center gap-9">
+            <a><button onclick="window.location.href='index.html'">Inicio</button></a>
+            <a><button onclick="window.location.href='visit.html'">Visita</button></a>
+            <a><button onclick="window.location.href='Exhibits.html'">Exhibiciones</button></a>
+            <a><button onclick="window.location.href='Shows.html'">Espectáculos</button></a>
+            <a><button onclick="window.location.href='Conservation.html'">Conservación</button></a>
+            <a><button onclick="window.location.href='Education.html'">Educación</button></a>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+              <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="tracking-light text-[32px] font-bold leading-tight">Boletos y ofertas</p>
+                <p class="text-sm font-normal leading-normal">Explora nuestras opciones de boletos y ofertas especiales para una visita inolvidable a Aqualife.</p>
+              </div>
+            </div>
+            <h2 class="text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Boletos estándar</h2>
+            <p class="text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Vive las maravillas del océano con nuestros boletos de admisión general. Elige entre opciones para adultos, niños y personas mayores.
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Adulto</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$35</span>
+                    <span class="text-base font-bold leading-tight">por persona</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Comprar boletos</span>
+                </button>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Niño (3-12)</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$25</span>
+                    <span class="text-base font-bold leading-tight">por persona</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Comprar boletos</span>
+                </button>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Adulto mayor (65+)</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$30</span>
+                    <span class="text-base font-bold leading-tight">por persona</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Comprar boletos</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Ofertas familiares</h2>
+            <p class="text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Disfruta un día con toda la familia y ahorra con nuestros paquetes familiares especiales. Incluye boletos para dos adultos y dos niños.
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6 max-w-[480px]">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Paquete familiar</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$100</span>
+                    <span class="text-base font-bold leading-tight">por familia</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Comprar boletos</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Paquetes de cumpleaños</h2>
+            <p class="text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Celebra tu día especial en Aqualife con nuestros paquetes de cumpleaños exclusivos. Incluyen admisión, un recorrido guiado y un regalo especial para la persona festejada.
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6 max-w-[480px]">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Paquete de cumpleaños</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$200</span>
+                    <span class="text-base font-bold leading-tight">por grupo (hasta 10 personas)</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Reserva ahora</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Descuentos para grupos</h2>
+            <p class="text-base font-normal leading-normal pb-3 pt-1 px-4">
+              ¿Planeas una visita con un grupo grande? Aprovecha nuestros descuentos para grupos de 15 personas o más.
+            </p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
+              <div class="flex flex-1 flex-col gap-4 rounded-lg border border-solid p-6 max-w-[480px]">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-base font-bold leading-tight">Descuento para grupos</h1>
+                  <p class="flex items-baseline gap-1">
+                    <span class="text-4xl font-black leading-tight tracking-[-0.033em]">$20</span>
+                    <span class="text-base font-bold leading-tight">por persona (mínimo 15 personas)</span>
+                  </p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Solicitar cotización</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Eventos especiales</h2>
+            <p class="text-base font-normal leading-normal pb-3 pt-1 px-4">
+              No te pierdas nuestros eventos especiales, como recorridos tras bambalinas, noches en el acuario y talleres educativos. Los precios varían según el evento.
+            </p>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Ver eventos</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,326 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Aqualife</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col  group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-center whitespace-nowrap border-b border-solid  px-10 py-3">
+          <div class="flex items-center gap-9">
+            <a><button onclick="window.location.href='index.html'">Inicio</button></a>
+            <a><button onclick="window.location.href='visit.html'">Visita</button></a>
+            <a><button onclick="window.location.href='Shows.html'">Espectáculos</button></a>
+            <a><button onclick="window.location.href='Conservation.html'">Conservación</button></a>
+            <a><button onclick="window.location.href='Education.html'">Educación</button></a>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4  text-sm font-bold leading-normal tracking-[0.015em]"
+              onclick="window.location.href='Buy.html'"
+            >
+              <span class="truncate">Comprar boletos</span>
+            </button>
+          </div>
+        </header>
+        <main class="px-4 md:px-10 lg:px-24 py-8 flex-1 bg-sky-50">
+          <div class="max-w-6xl mx-auto space-y-10">
+            <section class="space-y-4">
+              <h1 class="text-3xl md:text-4xl font-black text-sky-900 tracking-tight">Exhibiciones del acuario</h1>
+              <p class="text-slate-700 text-base md:text-lg max-w-3xl">
+                En Aqualife recreamos hábitats acuáticos de todo el mundo para que puedas conocer de cerca a algunas de las
+                especies más sorprendentes del planeta. Cada exhibición está diseñada para respetar las necesidades de los
+                animales y educar sobre la importancia de conservar sus ecosistemas.
+              </p>
+            </section>
+
+            <!-- Pez Koi -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Pez koi</h2>
+                <p class="text-slate-700">
+                  Los peces koi habitan en estanques de agua dulce de corrientes suaves, con abundante vegetación y zonas
+                  poco profundas. Nuestro estanque de koi recrea un jardín acuático japonés, con rocas, plantas y refugios
+                  donde los peces pueden nadar tranquilamente y socializar en grupos.
+                </p>
+                <p class="text-slate-700">
+                  El agua se mantiene cristalina y a temperatura templada, lo que permite observar sus colores vivos y
+                  patrones únicos mientras se alimentan cerca de la superficie.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfQLfmwkVXZL6SQUaWZLB_Q1FP0QjDR5nzDw&s"
+                  alt="Pez koi"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Pingüino emperador -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Pingüino emperador</h2>
+                <p class="text-slate-700">
+                  El hábitat del pingüino emperador reproduce las frías costas antárticas, con rocas, plataformas de hielo
+                  y una gran piscina de agua salada refrigerada. La temperatura se mantiene baja para imitar las condiciones
+                  naturales y favorecer su comportamiento social.
+                </p>
+                <p class="text-slate-700">
+                  Podrás observar cómo se deslizan sobre el hielo, se zambullen con velocidad y se comunican mediante
+                  vocalizaciones y posturas corporales muy características.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_1528132.jpg?w=1600"
+                  alt="Pingüinos emperador en un entorno helado"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Tiburón blanco -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Tiburón Limon</h2>
+                <p class="text-slate-700">
+                  Nuestro gran tanque oceánico simula mar costero, con poca profundidad, corrientes controladas y peces
+                  cardumen que acompañan al tiburón Limon. La iluminación tenue y el fondo rocoso ayudan a recrear el
+                  ambiente de las aguas costeras pocoprofundas.
+                </p>
+                <p class="text-slate-700">
+                  Reconocible por su coloración amarillenta que le brinda un camuflaje perfecto en aguas poco profundas, este tiburón es un depredador ágil e inteligente que juega un papel fundamental en el equilibrio del ecosistema marino.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://res.cloudinary.com/luximia/image/upload/v1625249936/Shark/Blogs/es/conoce-todo-acerca-del-tiburon-limon_fjjguv.jpg"
+                  alt="Tiburón Limon"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Medusas -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Medusas</h2>
+                <p class="text-slate-700">
+                  El espacio de medusas está compuesto por tanques circulares de agua salada con una suave corriente que
+                  las mantiene en suspensión. La iluminación de colores fríos resalta sus cuerpos gelatinosos y tentáculos,
+                  creando un efecto visual hipnótico.
+                </p>
+                <p class="text-slate-700">
+                  El agua se mantiene libre de obstáculos para evitar que se dañen y se controla cuidadosamente la salinidad
+                  y la temperatura, simulando las zonas pelágicas donde flotan con las corrientes marinas.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKjjqSU6PCi7veZt580icN8wWcRWxDnGMaw&s"
+                  alt="Medusa"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Tortugas marinas -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Tortugas marinas</h2>
+                <p class="text-slate-700">
+                  La laguna de tortugas recrea aguas costeras tropicales con fondo arenoso, rocas, corales artificiales y
+                  zonas de descanso poco profundas. Este hábitat permite que las tortugas naden largas distancias y salgan
+                  a la superficie para respirar cómodamente.
+                </p>
+                <p class="text-slate-700">
+                  Aprenderás sobre las rutas migratorias, las amenazas que enfrentan por la contaminación y las medidas de
+                  rescate y rehabilitación que realizamos junto a organizaciones de conservación.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg"
+                  alt="Tortuga marina nadando en aguas claras"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Ajolotes -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Ajolotes</h2>
+                <p class="text-slate-700">
+                  El ajolote habita tradicionalmente en canales y lagos de agua dulce poco profunda, con vegetación densa y
+                  refugios naturales. Nuestro acuario de ajolotes mantiene agua fría, bien oxigenada y con escondites entre
+                  troncos y rocas.
+                </p>
+                <p class="text-slate-700">
+                  A través de paneles interpretativos conocerás su increíble capacidad de regeneración y por qué está en
+                  peligro crítico de extinción en su hábitat original en México.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://paraguayoindependiente.com/wp-content/uploads/2024/07/Alojotes.png"
+                  alt="Ajolotes"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Cangrejos herradura -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Cangrejos herradura</h2>
+                <p class="text-slate-700">
+                  Los cangrejos herradura frecuentan zonas costeras poco profundas con fondos arenosos y lodosos. Nuestro
+                  tanque simula una playa sumergida donde pueden enterrarse parcialmente y desplazarse con tranquilidad.
+                </p>
+                <p class="text-slate-700">
+                  Descubrirás por qué se les considera “fósiles vivientes” y la importancia médica de su sangre azul en la
+                  detección de toxinas bacterianas.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfK076lMylWPUHqC3Dg1LMm_L08t68Fmo2A&s"
+                  alt="Cangrejos herraduras"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Pez león -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Pez león</h2>
+                <p class="text-slate-700">
+                  El acuario del pez león reproduce arrecifes rocosos con cuevas y salientes donde este depredador puede
+                  acechar a sus presas. La iluminación resalta sus aletas espinosas y bandas de colores, a la vez que le
+                  proporciona zonas de sombra.
+                </p>
+                <p class="text-slate-700">
+                  Aquí aprenderás sobre su papel como especie invasora en algunos mares y el impacto que tiene en los
+                  ecosistemas de arrecife.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezXyJWwJIdnSMsrh9QBehHEJMW_fXaTxnuA&s"
+                  alt="Pez león entre rocas y corales"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Anémonas -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Anémonas</h2>
+                <p class="text-slate-700">
+                  Las anémonas viven fijadas a rocas y corales en arrecifes poco profundos, donde reciben buena iluminación
+                  y corriente moderada. Nuestro tanque de anémonas incluye peces payaso y otros habitantes que establecen
+                  relaciones simbióticas con ellas.
+                </p>
+                <p class="text-slate-700">
+                  Podrás observar cómo sus tentáculos se mueven suavemente con el agua y cómo ofrecen refugio a pequeños
+                  peces que las utilizan como protección frente a depredadores.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://noticiasdelaciencia.com/upload/images/06_2025/8217_960px-peces_payaso_amphiprion_bicinctus_en_una_anemona_magnifica_heteractis_magnifica_mar_rojo_egipto_2023-04-17_dd_44.jpg"
+                  alt="Anémonas de colores con peces payaso"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Estrellas de mar -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Estrellas de mar</h2>
+                <p class="text-slate-700">
+                  Las estrellas de mar se encuentran en fondos rocosos y arenosos, donde se desplazan lentamente en busca de
+                  alimento. Nuestro hábitat táctil (con zonas de observación según horarios) permite ver sus brazos de cerca
+                  mientras se adhieren a las superficies.
+                </p>
+                <p class="text-slate-700">
+                  La temperatura y la salinidad se controlan cuidadosamente para imitar mares templados, y se explica su
+                  capacidad de regenerar extremidades perdidas.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHd4qAWLRh_g5AM7t_Tz9AW9bjw_f-PJAlQQ&s"
+                  alt="Estrella de mar sobre la arena"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Pulpos -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Pulpos</h2>
+                <p class="text-slate-700">
+                  El hábitat de los pulpos incluye cuevas, rocas y elementos que estimulan su curiosidad e inteligencia,
+                  como juguetes y rompecabezas de alimentación. El ambiente es tenue, imitando fondos marinos donde se
+                  camuflan con facilidad.
+                </p>
+                <p class="text-slate-700">
+                  A través de ventanas panorámicas podrás observar sus cambios de color, la precisión de sus tentáculos y su
+                  sorprendente capacidad para resolver problemas.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKQHKSaY2t365RxFaiyL0iWC9H2uinNg_BiQ&s"
+                  alt="Pulpo entre rocas"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+
+            <!-- Vaquita marina -->
+            <section class="grid md:grid-cols-[1.1fr,1fr] gap-6 items-center rounded-2xl bg-white shadow-sm p-6 md:p-8 border border-red-100">
+              <div class="space-y-3">
+                <h2 class="text-2xl font-bold text-sky-800">Vaquita marina</h2>
+                <p class="text-slate-700">
+                  La vaquita marina es uno de los mamíferos marinos más amenazados del mundo y habita exclusivamente en el
+                  Alto Golfo de California. En Aqualife dedicamos una exhibición educativa que recrea visualmente su hábitat
+                  con aguas poco profundas, fondo arenoso y corrientes suaves.
+                </p>
+                <p class="text-slate-700">
+                  A través de recursos audiovisuales conocerás su biología, las amenazas de la pesca incidental y las
+                  acciones internacionales para evitar su extinción, fomentando el respeto por esta especie emblemática de
+                  México.
+                </p>
+              </div>
+              <div class="rounded-2xl overflow-hidden shadow-md">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-XMlJ-FUS7HL-BF5Kz6RFbrLqUPF2d-jX3w&s"
+                  alt="Vaquita marina"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+</body>
+</html>

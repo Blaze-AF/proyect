@@ -1,0 +1,210 @@
+/* Paleta de colores principal */
+:root {
+    --color-primary-bg: #123249;
+    --color-secondary-bg: #061222;
+    --color-content-bg: #2D5B75;
+}
+
+/* Fondo general de la página */
+body {
+    background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--color-secondary-bg) 100%);
+    min-height: 100vh;
+    color: #447794;
+}
+
+/* Contenedor principal con fondo blanco */
+.group\/design-root {
+    background-color: var(--color-content-bg) !important;
+}
+
+.layout-container {
+    background-color: var(--color-content-bg) !important;
+}
+
+.layout-content-container {
+    background-color: var(--color-content-bg) !important;
+    color: white !important;
+}
+
+/* Contenido principal - texto blanco sobre fondo #2D5B75 */
+.layout-content-container *,
+.group\/design-root .layout-content-container * {
+    color: white !important;
+}
+
+/* Excepciones para elementos que deben ser blancos en contenido */
+.layout-content-container button,
+.group\/design-root .layout-content-container button {
+    color: white !important;
+}
+
+/* Header con fondo oscuro */
+header {
+    background-color: var(--color-primary-bg) !important;
+    border-bottom-color: var(--color-secondary-bg) !important;
+}
+
+header *,
+header h1,
+header h2,
+header h3,
+header p,
+header span,
+header a,
+header button {
+    color: white !important;
+}
+
+/* SVG en header debe ser blanco */
+header svg {
+    color: white !important;
+    fill: white !important;
+}
+
+/* Botones */
+button {
+    background-color: var(--color-primary-bg) !important;
+    color: white !important;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--color-secondary-bg) !important;
+}
+
+/* Botón Buy Tickets con efecto de resplandecer */
+button[onclick*="Buy.html"] {
+    background: linear-gradient(135deg, #00D4FF 0%, #0099CC 100%) !important;
+    color: white !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6),
+                0 0 40px rgba(0, 212, 255, 0.4),
+                0 0 60px rgba(0, 212, 255, 0.2) !important;
+    animation: glow 2s ease-in-out infinite alternate !important;
+    transition: all 0.3s ease !important;
+}
+
+button[onclick*="Buy.html"]:hover {
+    background: linear-gradient(135deg, #00E5FF 0%, #00B8E6 100%) !important;
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.8),
+                0 0 50px rgba(0, 212, 255, 0.6),
+                0 0 70px rgba(0, 212, 255, 0.4) !important;
+    transform: scale(1.05) !important;
+}
+
+/* Animación de resplandecer */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 20px rgba(0, 212, 255, 0.6),
+                    0 0 40px rgba(0, 212, 255, 0.4),
+                    0 0 60px rgba(0, 212, 255, 0.2);
+    }
+    to {
+        box-shadow: 0 0 30px rgba(0, 212, 255, 0.8),
+                    0 0 50px rgba(0, 212, 255, 0.6),
+                    0 0 70px rgba(0, 212, 255, 0.4);
+    }
+}
+
+/* Enlaces - blancos por defecto, oscuros en contenido principal */
+a {
+    color: white !important;
+}
+
+.layout-content-container a,
+.group\/design-root .layout-content-container a {
+    color: white !important;
+}
+
+/* Enlaces en header y footer siempre blancos */
+header a,
+footer a {
+    color: white !important;
+}
+
+/* Texto en contenido principal - ya está cubierto arriba */
+
+/* Cards y contenedores con fondo blanco */
+.bg-\[#f8fbfb\],
+.bg-\[#e8f1f3\] {
+    background-color: var(--color-content-bg) !important;
+}
+
+/* Bordes */
+.border-\[#d1e4e6\],
+.border-\[#e8f1f3\] {
+    border-color: var(--color-primary-bg) !important;
+}
+
+/* Estilos para el menú */
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    background-color: var(--color-primary-bg);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--color-secondary-bg);
+}
+
+p a {
+    color: white;
+}
+
+h1 a {
+    color: white;
+}
+
+h2 a {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary-bg) !important;
+    color: white !important;
+}
+
+footer a {
+    color: white !important;
+}
+
+/* Override de Tailwind para fondos */
+.bg-\[#f8fbfb\] {
+    background-color: var(--color-content-bg) !important;
+}
+
+.bg-\[#e8f1f3\] {
+    background-color: var(--color-content-bg) !important;
+}
+
+.bg-\[#158c99\] {
+    background-color: var(--color-primary-bg) !important;
+}
+
+/* Texto en elementos con fondo #2D5B75 */
+.text-\[#0e191b\] {
+    color: white !important;
+}
+
+.text-\[#508e95\] {
+    color: var(--color-primary-bg) !important;
+}
+
+.text-\[#f8fbfb\] {
+    color: white !important;
+}

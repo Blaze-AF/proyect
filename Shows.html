@@ -1,0 +1,243 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Aqualife</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-center whitespace-nowrap border-b border-solid px-10 py-3">
+          <div class="flex items-center gap-9">
+            <a><button onclick="window.location.href='index.html'">Inicio</button></a>
+            <a><button onclick="window.location.href='visit.html'">Visita</button></a>
+            <a><button onclick="window.location.href='Exhibits.html'">Exhibiciones</button></a>
+            <a><button onclick="window.location.href='Conservation.html'">Conservación</button></a>
+            <a><button onclick="window.location.href='Education.html'">Educación</button></a>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+              onclick="window.location.href='Buy.html'"
+            >
+              <span class="truncate">Comprar boletos</span>
+            </button>
+          </div>
+        </header>
+
+        <main class="px-4 md:px-10 lg:px-24 py-8 flex-1 bg-sky-50">
+          <div class="max-w-6xl mx-auto space-y-10">
+            <!-- Encabezado -->
+            <section class="space-y-4">
+              <h1 class="text-3xl md:text-4xl font-black text-sky-900 tracking-tight">Shows y experiencias en vivo</h1>
+              <p class="text-slate-700 text-base md:text-lg max-w-3xl">
+                Disfruta de presentaciones diarias y semanales inspiradas en nuestras exhibiciones. Conoce mejor a delfines,
+                lobos marinos, pingüinos y muchas otras especies a través de demostraciones educativas guiadas por nuestro
+                equipo de cuidadores.
+              </p>
+            </section>
+
+            <!-- Shows diarios -->
+            <section class="space-y-4">
+              <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3">
+                <div>
+                  <h2 class="text-2xl font-bold text-sky-800">Shows diarios</h2>
+                  <p class="text-slate-700">
+                    Estos shows se realizan todos los días, incluidos fines de semana y días festivos. Te recomendamos llegar
+                    con al menos 10 minutos de anticipación.
+                  </p>
+                </div>
+              </div>
+
+              <div class="grid gap-4 md:grid-cols-2">
+                <!-- Descubre a los delfines -->
+                <article class="rounded-2xl bg-white shadow-sm p-5 border border-sky-100">
+                  <div class="flex items-center justify-between gap-3 mb-2">
+                    <h3 class="text-lg font-semibold text-sky-900">Descubre a los delfines</h3>
+                    <span
+                      class="inline-flex items-center rounded-full bg-sky-600 px-3 py-1 text-xs font-semibold text-white"
+                    >
+                      Laguna de delfines
+                    </span>
+                  </div>
+                  <p class="text-slate-700 text-sm mb-3">
+                    Un show educativo donde conocerás la inteligencia, la comunicación y el cuidado de nuestros delfines.
+                  </p>
+                  <div class="space-y-1 text-sm text-slate-800">
+                    <p><span class="font-semibold">Horarios diarios:</span> 11:00, 14:00, 17:00</p>
+                    <p><span class="font-semibold">Duración:</span> 30 minutos</p>
+                    <p><span class="font-semibold">Ubicación:</span> Gradas principales de la laguna de delfines</p>
+                  </div>
+                </article>
+
+                <!-- Chapuzón de lobos marinos -->
+                <article class="rounded-2xl bg-white shadow-sm p-5 border border-sky-100">
+                  <div class="flex items-center justify-between gap-3 mb-2">
+                    <h3 class="text-lg font-semibold text-sky-900">Chapuzón de lobos marinos</h3>
+                    <span
+                      class="inline-flex items-center rounded-full bg-sky-600 px-3 py-1 text-xs font-semibold text-white"
+                    >
+                      Bahía de lobos marinos
+                    </span>
+                  </div>
+                  <p class="text-slate-700 text-sm mb-3">
+                    Un show divertido y dinámico donde los lobos marinos demuestran su agilidad, saltos y comportamientos
+                    naturales.
+                  </p>
+                  <div class="space-y-1 text-sm text-slate-800">
+                    <p><span class="font-semibold">Horarios diarios:</span> 12:30, 15:30</p>
+                    <p><span class="font-semibold">Duración:</span> 25 minutos</p>
+                    <p><span class="font-semibold">Ubicación:</span> Anfiteatro de la bahía de lobos marinos</p>
+                  </div>
+                </article>
+
+                <!-- Desfile de pingüinos -->
+                <article class="rounded-2xl bg-white shadow-sm p-5 border border-sky-100">
+                  <div class="flex items-center justify-between gap-3 mb-2">
+                    <h3 class="text-lg font-semibold text-sky-900">Desfile de pingüinos</h3>
+                    <span
+                      class="inline-flex items-center rounded-full bg-sky-600 px-3 py-1 text-xs font-semibold text-white"
+                    >
+                      Hábitat polar
+                    </span>
+                  </div>
+                  <p class="text-slate-700 text-sm mb-3">
+                    Observa a nuestros pingüinos emperador caminar, nadar y alimentarse mientras los cuidadores explican sus
+                    adaptaciones al frío.
+                  </p>
+                  <div class="space-y-1 text-sm text-slate-800">
+                    <p><span class="font-semibold">Horarios diarios:</span> 10:30, 13:30, 16:30</p>
+                    <p><span class="font-semibold">Duración:</span> 20 minutos</p>
+                    <p><span class="font-semibold">Ubicación:</span> Pasarela del hábitat de pingüinos</p>
+                  </div>
+                </article>
+
+                <!-- Alimentación en el arrecife de coral -->
+                <article class="rounded-2xl bg-white shadow-sm p-5 border border-sky-100">
+                  <div class="flex items-center justify-between gap-3 mb-2">
+                    <h3 class="text-lg font-semibold text-sky-900">Alimentación en el arrecife de coral</h3>
+                    <span
+                      class="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700"
+                    >
+                      Reino de los arrecifes
+                    </span>
+                  </div>
+                  <p class="text-slate-700 text-sm mb-3">
+                    Acompaña a nuestros buzos mientras alimentan a peces de colores, anémonas y estrellas de mar en el gran
+                    arrecife.
+                  </p>
+                  <div class="space-y-1 text-sm text-slate-800">
+                    <p><span class="font-semibold">Horarios diarios:</span> 12:00, 16:00</p>
+                    <p><span class="font-semibold">Duración:</span> 20 minutos</p>
+                    <p><span class="font-semibold">Ubicación:</span> Ventanales del arrecife principal</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <!-- Shows semanales -->
+            <section class="space-y-4">
+              <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3">
+                <div>
+                  <h2 class="text-2xl font-bold text-sky-800">Eventos y shows semanales</h2>
+                  <p class="text-slate-700">
+                    Además de los shows diarios, contamos con experiencias especiales en días específicos de la semana,
+                    inspiradas en nuestras exhibiciones de ajolotes, tortugas, pulpos y más.
+                  </p>
+                </div>
+              </div>
+
+              <div class="overflow-x-auto rounded-2xl bg-white shadow-sm border border-slate-100">
+                <table class="min-w-full text-sm">
+                  <thead class="bg-sky-100 text-sky-900">
+                    <tr>
+                      <th class="px-4 py-3 text-left font-semibold">Día</th>
+                      <th class="px-4 py-3 text-left font-semibold">Show</th>
+                      <th class="px-4 py-3 text-left font-semibold">Exhibición relacionada</th>
+                      <th class="px-4 py-3 text-left font-semibold">Horario</th>
+                      <th class="px-4 py-3 text-left font-semibold">Ubicación</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-100">
+                    <tr>
+                      <td class="px-4 py-3 font-semibold text-slate-800">Lunes</td>
+                      <td class="px-4 py-3 text-slate-800">Detrás del vidrio: pulpos inteligentes</td>
+                      <td class="px-4 py-3 text-slate-700">Pulpos</td>
+                      <td class="px-4 py-3 text-slate-700">18:00</td>
+                      <td class="px-4 py-3 text-slate-700">Zona de pulpos</td>
+                    </tr>
+                    <tr class="bg-slate-50">
+                      <td class="px-4 py-3 font-semibold text-slate-800">Martes</td>
+                      <td class="px-4 py-3 text-slate-800">Noche en el arrecife</td>
+                      <td class="px-4 py-3 text-slate-700">Peces koi, pez león y anémonas</td>
+                      <td class="px-4 py-3 text-slate-700">19:00</td>
+                      <td class="px-4 py-3 text-slate-700">Arrecife de coral</td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-3 font-semibold text-slate-800">Miércoles</td>
+                      <td class="px-4 py-3 text-slate-800">Guardianes ancestrales del mar</td>
+                      <td class="px-4 py-3 text-slate-700">Cangrejos herradura y tortugas marinas</td>
+                      <td class="px-4 py-3 text-slate-700">17:30</td>
+                      <td class="px-4 py-3 text-slate-700">Laguna de tortugas</td>
+                    </tr>
+                    <tr class="bg-slate-50">
+                      <td class="px-4 py-3 font-semibold text-slate-800">Jueves</td>
+                      <td class="px-4 py-3 text-slate-800">Laboratorio vivo de ajolotes</td>
+                      <td class="px-4 py-3 text-slate-700">Ajolotes</td>
+                      <td class="px-4 py-3 text-slate-700">16:00</td>
+                      <td class="px-4 py-3 text-slate-700">Acuario de ajolotes</td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-3 font-semibold text-slate-800">Viernes</td>
+                      <td class="px-4 py-3 text-slate-800">Gigantes del océano</td>
+                      <td class="px-4 py-3 text-slate-700">Tiburón Limon y tortugas marinas</td>
+                      <td class="px-4 py-3 text-slate-700">18:30</td>
+                      <td class="px-4 py-3 text-slate-700">Tanque oceánico principal</td>
+                    </tr>
+                    <tr class="bg-slate-50">
+                      <td class="px-4 py-3 font-semibold text-slate-800">Sábado</td>
+                      <td class="px-4 py-3 text-slate-800">Noche de medusas</td>
+                      <td class="px-4 py-3 text-slate-700">Medusas</td>
+                      <td class="px-4 py-3 text-slate-700">20:00</td>
+                      <td class="px-4 py-3 text-slate-700">Galería de medusas</td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-3 font-semibold text-slate-800">Domingo</td>
+                      <td class="px-4 py-3 text-slate-800">Especial conservación: vaquita marina</td>
+                      <td class="px-4 py-3 text-slate-700">Vaquita marina</td>
+                      <td class="px-4 py-3 text-slate-700">17:00</td>
+                      <td class="px-4 py-3 text-slate-700">Teatro educativo Aqualife</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- Nota -->
+            <section class="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+              <p>
+                Los horarios pueden cambiar sin previo aviso por condiciones climáticas o necesidades de los animales.
+                Consulta las pantallas informativas a la entrada del acuario el día de tu visita para confirmar el
+                cronograma actualizado.
+              </p>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+
+

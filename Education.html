@@ -1,0 +1,423 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Aqualife</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-center whitespace-nowrap border-b border-solid px-10 py-3">
+          <div class="flex items-center gap-9">
+            <a><button onclick="window.location.href='index.html'">Inicio</button></a>
+            <a><button onclick="window.location.href='visit.html'">Visita</button></a>
+            <a><button onclick="window.location.href='Exhibits.html'">Exhibiciones</button></a>
+            <a><button onclick="window.location.href='Shows.html'">Espectáculos</button></a>
+            <a><button onclick="window.location.href='Conservation.html'">Conservación</button></a>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em]"
+              onclick="window.location.href='Buy.html'"
+            >
+              <span class="truncate">Comprar boletos</span>
+            </button>
+          </div>
+        </header>
+        <main class="px-4 md:px-10 lg:px-24 py-10 flex-1 bg-sky-50">
+          <!-- Hero -->
+          <section class="rounded-3xl bg-gradient-to-r from-sky-800 to-sky-600 text-white px-6 py-10 shadow-lg space-y-4">
+            <p class="text-xs uppercase tracking-[0.35em]">Escuela marina</p>
+            <h1 class="text-3xl md:text-4xl font-black leading-tight">Aprende sobre nuestros animales y cómo cuidarlos</h1>
+            <p class="text-base md:text-lg text-sky-100 max-w-3xl">
+              Esta guía ayuda a los menores a conocer a las especies de las exhibiciones y de los shows. Descubre su hábitat,
+              qué comen, cómo se comportan y si están a salvo o en peligro de extinción.
+            </p>
+          </section>
+
+          <!-- Exhibits animals -->
+          <section class="mt-10 space-y-6">
+            <div>
+              <p class="text-sm uppercase tracking-[0.3em] text-sky-700 font-semibold">Animales de las exhibiciones</p>
+              <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Conoce sus hogares</h2>
+              <p class="text-slate-700 max-w-3xl">
+                Cada sala del acuario recrea un ambiente especial. Aprende cómo viven estas especies y cómo podemos ayudarlas.
+              </p>
+            </div>
+            <div class="grid gap-5 md:grid-cols-2">
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Pez koi</h3>
+                  <span class="inline-flex items-center rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">
+                    A salvo
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Vive en estanques tranquilos y se adapta muy bien a los jardines acuáticos, por eso es perfecto para aprender
+                  sobre peces de agua dulce.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Sin poblacion silvestre, especie domesticada dependiente de humanos</li>
+                  <li><span class="font-semibold">Hábitat:</span> Estanques con plantas y cascadas suaves.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Granos, algas y pequeños insectos.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Son curiosos y suelen acercarse a las personas.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Tiburón limón</h3>
+                  <span class="inline-flex items-center rounded-full bg-yellow-600 px-3 py-1 text-xs font-semibold text-white">
+                    Vulnerable
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Reemplazamos al tiburón blanco por esta especie costera que nos permite hablar sobre manglares y jóvenes
+                  depredadores que cuidan el equilibrio marino.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Sin conteo preciso o fiable</li>
+                  <li><span class="font-semibold">Hábitat:</span> Manglares y lagunas poco profundas.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Peces pequeños, rayas y cangrejos.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Nada en grupos juveniles para protegerse.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Tortuga verde</h3>
+                  <span class="inline-flex items-center rounded-full bg-yellow-600 px-3 py-1 text-xs font-semibold text-white">
+                    Preocupacion Menor
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Necesita playas limpias para anidar y praderas marinas sanas para alimentarse durante su largo viaje.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Sin numeros de poblacion fiables</li>
+                  <li><span class="font-semibold">Hábitat:</span> Aguas costeras cálidas y arrecifes.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Pastos marinos y algas.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Regresa a la playa donde nació para dejar sus huevos.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Ajolote</h3>
+                  <span class="inline-flex items-center rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white">
+                    Criticamente en Peligro
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Este anfibio mexicano puede regenerar extremidades. Nos ayuda a explicar por qué debemos conservar los canales
+                  de Xochimilco.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Se estiman 1,000 ejemplares adultos en estado silvestre</li>
+                  <li><span class="font-semibold">Hábitat:</span> Agua dulce y fría con muchas plantas.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Pequeños crustáceos, caracoles y larvas.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Es nocturno y prefiere permanecer en el fondo.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Medusa luna</h3>
+                  <span class="inline-flex items-center rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">
+                    A salvo
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Aunque parecen delicadas, tienen un sistema simple que les permite sobrevivir siguiendo las corrientes.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> La poblacion varia mucho segun el clima y otros factores, sin aproximado</li>
+                  <li><span class="font-semibold">Hábitat:</span> Mares templados.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Plancton y pequeños peces.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Pulsa su campana para moverse lentamente.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Vaquita marina</h3>
+                  <span class="inline-flex items-center rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white">
+                    Peligro Critico
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  El mamífero marino más amenazado del mundo solo vive en el Alto Golfo de California. Aprendemos sobre pesca
+                  responsable gracias a ella.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Segun censos del 2023, se estima que quedan entre 8 y 13 especimenes en libertad</li>
+                  <li><span class="font-semibold">Hábitat:</span> Aguas poco profundas y turbias.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Peces pequeños y calamares.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Se mueve en parejas tímidas.</li>
+                </ul>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <!-- Shows animals -->
+          <section class="mt-12 space-y-6">
+            <div>
+              <p class="text-sm uppercase tracking-[0.3em] text-sky-700 font-semibold">Estrellas de los shows</p>
+              <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Aprende mientras te diviertes</h2>
+              <p class="text-slate-700 max-w-3xl">
+                Nuestros espectáculos muestran conductas naturales. Aprovechamos cada presentación para hablar de bienestar y
+                conservación.
+              </p>
+            </div>
+            <div class="grid gap-5 md:grid-cols-2">
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Delfín nariz de botella</h3>
+                  <span class="inline-flex items-center rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">
+                    A salvo
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Se comunican con silbidos y chasquidos. Les explicamos a los menores cómo las redes fantasma pueden dañarlos.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> 243,500 en el Golfo del Pacifico, en otras zonas existen decenas de miles</li>
+                  <li><span class="font-semibold">Hábitat:</span> Litorales templados y tropicales.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Peces y calamares.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Viven en manadas que colaboran para cazar.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Lobo marino de California</h3>
+                  <span class="inline-flex items-center rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">
+                    A salvo
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Son ágiles dentro y fuera del agua. Aprenden señales que replican juegos y estiramientos naturales.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> 241,000 ejemplares en costas de EE.UU y se estima que 85,000 en el Pacifico Tropical/Baja california</li>
+                  <li><span class="font-semibold">Hábitat:</span> Costas rocosas y plataformas arenosas.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Peces y cefalópodos.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Descansan en grandes colonias al sol.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Pingüino emperador</h3>
+                  <span class="inline-flex items-center rounded-full bg-yellow-600 px-3 py-1 text-xs font-semibold text-white">
+                    Casi Amenazado
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Vive en el hielo antártico. Enseñamos cómo se turnan para cubrir a sus polluelos del viento helado.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Alrededor de 650,000 ejemplares</li>
+                  <li><span class="font-semibold">Hábitat:</span> Plataformas de hielo.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Pequeños peces y krill.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Forman círculos para conservar el calor.</li>
+                </ul>
+                </ul>
+              </article>
+
+              <article class="rounded-2xl bg-white p-6 shadow-md border border-slate-100 space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="text-xl font-semibold text-sky-900">Pez león</h3>
+                  <span class="inline-flex items-center rounded-full bg-green-600 px-3 py-1 text-xs font-semibold text-white">
+                    A salvo
+                  </span>
+                </div>
+                <p class="text-sm text-slate-600">
+                  Su aspecto elegante oculta espinas venenosas. Debido a su estatus como especie invasora y su alta tasa reproductiva no es considerado como especie en peligro de extincion.
+                </p>
+                <ul class="space-y-1 text-sm text-slate-700">
+                  <ul class="text-sm text-white list-disc list-inside">
+                    <li><span class="font-semibold">Poblacion:</span> Especie invasora con un aproximado de 388 especimenes por hectarea</li>
+                  <li><span class="font-semibold">Hábitat:</span> Arrecifes rocosos.</li>
+                  <li><span class="font-semibold">Alimentación:</span> Peces pequeños a los que acecha pacientemente.</li>
+                  <li><span class="font-semibold">Comportamiento:</span> Puede invadir nuevos mares, por eso lo monitoreamos.</li>
+                </ul>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <!-- Quiz -->
+          <section class="mt-14 rounded-3xl bg-white border border-slate-100 shadow-lg px-6 py-10 space-y-6">
+            <div class="text-center space-y-2">
+              <p class="text-sm uppercase tracking-[0.3em] text-sky-700 font-semibold">Reto interactivo</p>
+              <h2 class="text-2xl md:text-3xl font-bold text-sky-900">Cuestionario marino</h2>
+              <p class="text-slate-700">
+                Marca la respuesta correcta. Al final sabrás cuáles preguntas acertaste y cuáles debes repasar.
+              </p>
+            </div>
+            <form id="quizMarino" class="space-y-6">
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="b">
+                <p class="font-semibold text-slate-900">1. ¿Dónde pasa la mayor parte del tiempo el tiburón limón?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q1" value="a" class="mt-1" /> En el fondo helado de la Antártida.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q1" value="b" class="mt-1" /> En manglares y lagunas poco profundas.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q1" value="c" class="mt-1" /> Dentro de cuevas terrestres.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="c">
+                <p class="font-semibold text-slate-900">2. ¿Qué comen principalmente los ajolotes?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q2" value="a" class="mt-1" /> Frutas tropicales.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q2" value="b" class="mt-1" /> Pastos marinos.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q2" value="c" class="mt-1" /> Pequeños crustáceos y larvas.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="a">
+                <p class="font-semibold text-slate-900">3. ¿Por qué la vaquita marina está en peligro?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q3" value="a" class="mt-1" /> Queda atrapada en redes de pesca ilegales.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q3" value="b" class="mt-1" /> No sabe nadar bien.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q3" value="c" class="mt-1" /> Prefiere vivir en tierra firme.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="c">
+                <p class="font-semibold text-slate-900">4. ¿Qué sonido usan los delfines para comunicarse?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q4" value="a" class="mt-1" /> Rugidos fuertes.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q4" value="b" class="mt-1" /> Silencio total.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q4" value="c" class="mt-1" /> Silbidos y chasquidos.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="b">
+                <p class="font-semibold text-slate-900">5. ¿Qué hacen los pingüinos emperador para proteger a sus crías?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q5" value="a" class="mt-1" /> Construyen nidos en árboles.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q5" value="b" class="mt-1" /> Se turnan para cubrirlos del frío.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q5" value="c" class="mt-1" /> Los envían a vivir con peces payaso.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="quiz-question rounded-2xl border border-slate-200 p-4 space-y-3" data-answer="a">
+                <p class="font-semibold text-slate-900">6. ¿Qué hace especial al pez león en el show?</p>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q6" value="a" class="mt-1" /> Sus aletas tienen espinas venenosas.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q6" value="b" class="mt-1" /> Puede cantar canciones humanas.
+                </label>
+                <label class="flex items-start gap-2 text-sm text-slate-700">
+                  <input type="radio" name="q6" value="c" class="mt-1" /> Vive en el desierto.
+                </label>
+                <p class="quiz-feedback text-sm font-semibold"></p>
+              </div>
+
+              <div class="flex flex-col gap-3">
+                <button
+                  type="submit"
+                  class="inline-flex items-center justify-center rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 transition-all duration-200"
+                >
+                  Enviar respuestas
+                </button>
+                <p id="quizScore" class="text-center text-sm font-semibold text-slate-700"></p>
+              </div>
+            </form>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script>
+      const quizForm = document.getElementById('quizMarino');
+      if (quizForm) {
+        quizForm.addEventListener('submit', (event) => {
+          event.preventDefault();
+          let score = 0;
+          const questions = quizForm.querySelectorAll('.quiz-question');
+          questions.forEach((question) => {
+            const answer = question.dataset.answer;
+            const selected = question.querySelector('input[type="radio"]:checked');
+            const feedback = question.querySelector('.quiz-feedback');
+            question.classList.remove('border-green-300', 'border-red-300', 'border-amber-200');
+            if (!selected) {
+              feedback.textContent = 'Selecciona una opción para esta pregunta.';
+              feedback.className = 'quiz-feedback text-sm font-semibold text-amber-600';
+              question.classList.add('border-amber-200');
+              return;
+            }
+            if (selected.value === answer) {
+              score += 1;
+              feedback.textContent = '¡Correcto!';
+              feedback.className = 'quiz-feedback text-sm font-semibold text-green-600';
+              question.classList.add('border-green-300');
+            } else {
+              feedback.textContent = 'Respuesta incorrecta. Revisa la información.';
+              feedback.className = 'quiz-feedback text-sm font-semibold text-red-600';
+              question.classList.add('border-red-300');
+            }
+          });
+          const scoreText = document.getElementById('quizScore');
+          scoreText.textContent = `Obtuviste ${score} de 6 respuestas correctas.`;
+        });
+      }
+    </script>
+  </body>
+</html>
+
